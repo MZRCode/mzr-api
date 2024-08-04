@@ -19,3 +19,11 @@
 ### - [🌐 Website](https://www.mzrdev.xyz)
 ### - [📚 Document's](https://docs.mzrdev.xyz)
 ### - [🖥 Github](https://github.com/MZRCode/mzr-api)
+# Installation
+```json
+npm i mzr-api
+pnpm add mzr-api
+yarn add mzr-api
+```
+# Documentation and Examples
+> We cannot write here as we show everything in the most detailed way in our document. We will only add small NPM related examples in the README. For detailed information you can check [documentation](https://docs.mzrdev.xyz).
