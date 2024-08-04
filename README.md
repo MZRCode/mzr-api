@@ -21,7 +21,7 @@
 ### - [🖥 Github](https://github.com/MZRCode/mzr-api)
 # Installation
 ```yaml
-npm i mzr-api
+npm install mzr-api
 pnpm add mzr-api
 yarn add mzr-api
 ```
