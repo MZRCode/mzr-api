@@ -25,5 +25,21 @@ npm i mzr-api
 pnpm add mzr-api
 yarn add mzr-api
 ```
-# Documentation and Examples
+# Documentation & Examples
 > We cannot write here as we show everything in the most detailed way in our document. We will only add small NPM related examples in the README. For detailed information you can check [documentation](https://docs.mzrdev.xyz).
+## Example Get Version For CJS (CommonJS);
+```js
+const { version } = require('mzr-api');
+
+console.log(version);
+```
+## Example Altın For CJS (CommonJS);
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.altin();
+    console.log(data);
+})()
+```
