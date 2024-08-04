@@ -12,3 +12,6 @@
     <a href="https://discord.gg/ktVdQYrtXF" target="_blank"> <img alt="Discord" src="https://img.shields.io/badge/Discord-%20Support%20Server-7289da?style=for-the-badge&logo=discord"></a>
  </p>
 </div>
+
+# [MZR-API](https://www.mzrdev.xyz)
+## [❓ Support](https://discord.gg/ktVdQYrtXF) [📚 Document's](https://docs.mzrdev.xyz) [🖥 Github](https://github.com/MZRCode/mzr-api)
