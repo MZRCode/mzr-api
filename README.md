@@ -20,7 +20,7 @@
 ### - [📚 Document's](https://docs.mzrdev.xyz)
 ### - [🖥 Github](https://github.com/MZRCode/mzr-api)
 # Installation
-```text
+```yaml
 npm i mzr-api
 pnpm add mzr-api
 yarn add mzr-api
