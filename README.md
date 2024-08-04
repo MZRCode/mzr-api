@@ -14,4 +14,7 @@
 </div>
 
 # [MZR-API](https://www.mzrdev.xyz)
-## [❓ Support](https://discord.gg/ktVdQYrtXF) [📚 Document's](https://docs.mzrdev.xyz) [🖥 Github](https://github.com/MZRCode/mzr-api)
+## [❓ Support](https://discord.gg/ktVdQYrtXF)
+## [🌐 Website](https://www.mzrdev.xyz)
+## [📚 Document's](https://docs.mzrdev.xyz)
+## [🖥 Github](https://github.com/MZRCode/mzr-api)
