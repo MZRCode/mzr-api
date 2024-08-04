@@ -5,5 +5,5 @@
   <img src="https://img.shields.io/npm/l/mzr-api?style=for-the-badge">
   <img src="https://img.shields.io/npm/dt/mzr-api?style=for-the-badge">
   <a href="https://discord.gg/ktVdQYrtXF" target="_blank"> 
-  <img alt="Discord" src="https://img.shields.io/badge/Support-424549?style=for-the-badge&logo=discord"></a>
+  <img alt="Discord" src="https://img.shields.io/badge/Support-%20Server-424549?style=for-the-badge&logo=discord"></a>
 </p>
