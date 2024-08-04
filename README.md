@@ -33,16 +33,6 @@ const { version } = require('mzr-api');
 
 console.log(version);
 ```
-## Example Altın For CommonJS (Only Turkiye);
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
-
-(async () => {
-    const data = await mzrapi.altin();
-    console.log(data);
-})()
-```
 ## Example Crypto For CommonJS;
 ```js
 const { Api } = require('mzr-api');
@@ -53,6 +43,116 @@ const mzrapi = new Api('YOUR_API_KEY');
     const currencies = ['USD', 'EUR', 'TRY']; 
 
     const data = await mzrapi.crypto(coins, currencies);
+    console.log(data);
+})()
+```
+## Example Fun For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.fun('wasted', 'image_url.png');
+    console.log(data);
+})()
+```
+## Example Minecraft Server Info For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.minecraftServer('mc.hypixel.net');
+    console.log(data);
+})()
+```
+## Example Steam Game Search For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.steam('ETS 2'); // Euro Truck Simulator 2
+    console.log(data);
+})()
+```
+## Example Translate For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.translate('Hello! How are you', 'tr');
+    console.log(data);
+})()
+```
+## Example Discord User Info For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.users('701518625760346172');
+    console.log(data);
+})()
+```
+## Example Wikipedia Search For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.wikipedia('Yusuf Dikeç');
+    console.log(data);
+})()
+```
+## Example Gold Price For CommonJS (Only Turkiye);
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.altin();
+    console.log(data);
+})()
+```
+## Example Earthquakes For CommonJS (Only Turkiye);
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.depremler(2);
+    console.log(data);
+})()
+```
+## Example Currency For CommonJS (Only Turkiye);
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.doviz();
+    console.log(data);
+})()
+```
+## Example News For CommonJS (Only Turkiye);
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.haberler('dunya', 2);
+    console.log(data);
+})()
+```
+## Example Prayer Times For CommonJS (Only Turkiye);
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const data = await mzrapi.namazVakitleri('İstanbul', 'Esenyurt');
     console.log(data);
 })()
 ```
