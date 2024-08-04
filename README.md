@@ -33,7 +33,7 @@ const { version } = require('mzr-api');
 
 console.log(version);
 ```
-## Example Crypto For CommonJS;
+## Example Crypto;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -46,7 +46,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Fun For CommonJS;
+## Example Fun;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -56,7 +56,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Minecraft Server Info For CommonJS;
+## Example Minecraft Server Info;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -66,7 +66,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Steam Game Search For CommonJS;
+## Example Steam Game Search;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -76,7 +76,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Translate For CommonJS;
+## Example Translate;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -86,7 +86,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Discord User Info For CommonJS;
+## Example Discord User Info;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -96,7 +96,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Wikipedia Search For CommonJS;
+## Example Wikipedia Search;
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -106,7 +106,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Gold Price For CommonJS (Only Turkiye);
+## Example Gold Price (Only Turkiye);
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -116,7 +116,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Earthquakes For CommonJS (Only Turkiye);
+## Example Earthquakes (Only Turkiye);
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -126,7 +126,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Currency For CommonJS (Only Turkiye);
+## Example Currency (Only Turkiye);
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -136,7 +136,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example News For CommonJS (Only Turkiye);
+## Example News (Only Turkiye);
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -146,7 +146,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })()
 ```
-## Example Prayer Times For CommonJS (Only Turkiye);
+## Example Prayer Times (Only Turkiye);
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
