@@ -14,8 +14,10 @@ SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 <div align="center">
 <p>
    <a href="#"> <img width=500 src="https://raw.githubusercontent.com/MZRCode/mzr-api/main/mzrapi-logo.png"></a>
+</p>
+<p>
    <a href="https://nodei.co/npm/mzr-api/"><img src="https://nodei.co/npm/mzr-api.png?downloads=true&stars=true" alt="NPM info" /></a>
- </p>
+</p>
 <p>
     <img src="https://img.shields.io/npm/v/mzr-api?style=for-the-badge">
     <img src="https://img.shields.io/github/repo-size/MZRCode/mzr-api?style=for-the-badge">
