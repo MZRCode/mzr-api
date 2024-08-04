@@ -27,19 +27,32 @@ yarn add mzr-api
 ```
 # Documentation & Examples
 > We cannot write here as we show everything in the most detailed way in our document. We will only add small NPM related examples in the README. For detailed information you can check [documentation](https://docs.mzrdev.xyz).
-## Example Get Version For CJS (CommonJS);
+## Example Get Version For CommonJS;
 ```js
 const { version } = require('mzr-api');
 
 console.log(version);
 ```
-## Example Altın For CJS (CommonJS);
+## Example Altın For CommonJS (Only Turkiye);
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
 
 (async () => {
     const data = await mzrapi.altin();
+    console.log(data);
+})()
+```
+## Example Crypto For CommonJS;
+```js
+const { Api } = require('mzr-api');
+const mzrapi = new Api('YOUR_API_KEY');
+
+(async () => {
+    const coins = ['BTC', 'ETH'];
+    const currencies = ['USD', 'EUR', 'TRY']; 
+
+    const data = await mzrapi.crypto(coins, currencies);
     console.log(data);
 })()
 ```
