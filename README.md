@@ -15,7 +15,7 @@
 
 # [MZR-API](https://www.mzrdev.xyz)
 > The main purpose of this module is to simplify sending requests to the MZR API and reduce the error rate. It is completely based on the MZR API.
-### [❓ Support](https://discord.gg/ktVdQYrtXF)
+### - [❓ Support](https://discord.gg/ktVdQYrtXF)
 ### [🌐 Website](https://www.mzrdev.xyz)
 ### [📚 Document's](https://docs.mzrdev.xyz)
 ### [🖥 Github](https://github.com/MZRCode/mzr-api)
