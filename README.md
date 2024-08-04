@@ -7,4 +7,4 @@
   <img src="https://img.shields.io/github/contributors/Bes-js/herc.ai?style=for-the-badge">
   <a href="https://discord.gg/ktVdQYrtXF" target="_blank"> 
   <img alt="Discord" src="https://img.shields.io/badge/Support-Click%20here-7289d9?style=for-the-badge&logo=discord">
-  <img alt="Discord" src="https://img.shields.io/badge/Support-%20-7289d9?style=for-the-badge&logo=discord">
+  <img alt="Discord" src="https://img.shields.io/badge/Support-7289d9?style=for-the-badge&logo=discord">
