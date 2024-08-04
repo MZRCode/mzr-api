@@ -7,8 +7,8 @@
 </p>
 <p>
     <img src="https://img.shields.io/npm/v/mzr-api?style=for-the-badge">
-    <img src="https://img.shields.io/github/repo-size/MZRCode/mzr-api?style=for-the-badge">
     <img src="https://img.shields.io/npm/l/mzr-api?style=for-the-badge">
+    <img src="https://img.shields.io/github/repo-size/MZRCode/mzr-api?style=for-the-badge">
     <a href="https://discord.gg/ktVdQYrtXF" target="_blank"> <img alt="Discord" src="https://img.shields.io/badge/Discord-%20Support%20Server-7289da?style=for-the-badge&logo=discord"></a>
  </p>
 </div>
