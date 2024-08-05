@@ -27,7 +27,7 @@ yarn add mzr-api
 ```
 # Documentation & Examples
 > We cannot write here as we show everything in the most detailed way in our document. We will only add small NPM related examples in the README. For detailed information you can check [documentation](https://docs.mzrdev.xyz).
-## Example Get Version For CommonJS;
+## Example Get Version;
 ```js
 const { version } = require('mzr-api');
 
