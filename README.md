@@ -18,7 +18,7 @@ MZR-API is a Node.js module designed to simplify sending requests to the MZR API
 
 ### 🚀 Getting Started
 - [❓ Support](https://discord.gg/ktVdQYrtXF)
-- [🌐 Web Sitesi](https://www.mzrdev.xyz)
+- [🌐 Website](https://www.mzrdev.xyz)
 - [📚 Documentation](https://docs.mzrdev.xyz)
 - [💻 Github](https://github.com/MZRCode/mzr-api)
 
