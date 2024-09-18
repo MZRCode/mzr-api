@@ -14,23 +14,17 @@
 </div>
 
 # MZR-API
-
 MZR-API, MZR API'ye istek göndermeyi kolaylaştıran ve hata oranını azaltan bir Node.js modülüdür. Bu modül, MZR API'si ile etkileşimde bulunmayı basitleştirmek için tasarlanmıştır.
 
 ### 🚀 Başlangıç
-
 - [❓ Destek](https://discord.gg/ktVdQYrtXF)
 - [🌐 Web Sitesi](https://www.mzrdev.xyz)
 - [📚 Belgeler](https://docs.mzrdev.xyz)
 
 ### 📥 Kurulum
-
-Modülü aşağıdaki komutlarla yükleyebilirsiniz:
 ```bash
 npm install mzr-api
-# veya
 pnpm add mzr-api
-# veya
 yarn add mzr-api
 ```
 
