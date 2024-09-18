@@ -73,8 +73,7 @@ const mzrapi = new Api('YOUR_API_KEY');
     console.log(data);
 })();
 ```
-
-For more examples and detailed information, please refer to our [documentation](https://docs.mzrdev.xyz).
+> For more examples and detailed information, please refer to our [documentation](https://docs.mzrdev.xyz).
 
 ### 📢 Contributing
 If you would like to contribute, please check out our [Contributing Guide](https://www.mzrdev.xyz/contributing).
