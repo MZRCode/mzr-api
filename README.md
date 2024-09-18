@@ -14,30 +14,30 @@
 </div>
 
 # MZR-API
-MZR-API, MZR API'ye istek göndermeyi kolaylaştıran ve hata oranını azaltan bir Node.js modülüdür. Bu modül, MZR API'si ile etkileşimde bulunmayı basitleştirmek için tasarlanmıştır.
+MZR-API is a Node.js module designed to simplify sending requests to the MZR API and reduce error rates. It provides an easy-to-use interface for interacting with the MZR API.
 
-### 🚀 Başlangıç
-- [❓ Destek](https://discord.gg/ktVdQYrtXF)
+### 🚀 Getting Started
+- [❓ Support](https://discord.gg/ktVdQYrtXF)
 - [🌐 Web Sitesi](https://www.mzrdev.xyz)
-- [📚 Belgeler](https://docs.mzrdev.xyz)
+- [📚 Documentation](https://docs.mzrdev.xyz)
 
-### 📥 Kurulum
+### 📥 Installation
 ```bash
 npm install mzr-api
 pnpm add mzr-api
 yarn add mzr-api
 ```
 
-### 📝 Kullanım Örnekleri
-Aşağıda bazı kullanım örneklerini bulabilirsiniz. Daha fazla bilgi ve detaylı açıklamalar için [belgelerimize](https://docs.mzrdev.xyz) göz atabilirsiniz.
+### 📝 Usage Examples
+Here are some usage examples. For more detailed information and additional examples, please refer to our [documentation](https://docs.mzrdev.xyz).
 
-#### Örnek: Sürüm Bilgisi
+#### Example: Get Version
 ```js
 const { version } = require('mzr-api');
 console.log(version);
 ```
 
-#### Örnek: Kripto Para Verileri
+#### Example: Crypto
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -51,7 +51,7 @@ const mzrapi = new Api('YOUR_API_KEY');
 })();
 ```
 
-#### Örnek: Minecraft Sunucu Bilgisi
+#### Example: Minecraft Server Info
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -62,7 +62,7 @@ const mzrapi = new Api('YOUR_API_KEY');
 })();
 ```
 
-#### Örnek: Proxy Kontrolü
+#### Example: Proxy Check
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -73,10 +73,10 @@ const mzrapi = new Api('YOUR_API_KEY');
 })();
 ```
 
-Daha fazla örnek ve detaylı bilgi için [belgelerimize](https://docs.mzrdev.xyz) bakabilirsiniz.
+For more examples and detailed information, please refer to our [documentation](https://docs.mzrdev.xyz).
 
-### 📢 Katkıda Bulunma
-Herhangi bir katkıda bulunmak isterseniz, lütfen [Katkı Kılavuzumuza](https://www.mzrdev.xyz/contributing) göz atın.
+### 📢 Contributing
+If you would like to contribute, please check out our [Contributing Guide](https://www.mzrdev.xyz/contributing).
 
-### 📜 Lisans
-Bu proje [MIT Lisansı](https://opensource.org/licenses/MIT) ile lisanslanmıştır.
+### 📜 License
+This project is licensed under the [MIT Lisansı](https://opensource.org/licenses/MIT).
