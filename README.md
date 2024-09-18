@@ -13,27 +13,37 @@
  </p>
 </div>
 
-# [MZR-API](https://www.mzrdev.xyz)
-> The main purpose of this module is to simplify sending requests to the MZR API and reduce the error rate. It is completely based on the MZR API.
-### - [❓ Support](https://discord.gg/ktVdQYrtXF)
-### - [🌐 Website](https://www.mzrdev.xyz)
-### - [📚 Document's](https://docs.mzrdev.xyz)
-### - [🖥 Github](https://github.com/MZRCode/mzr-api)
-# Installation
-```yaml
+# MZR-API
+
+MZR-API, MZR API'ye istek göndermeyi kolaylaştıran ve hata oranını azaltan bir Node.js modülüdür. Bu modül, MZR API'si ile etkileşimde bulunmayı basitleştirmek için tasarlanmıştır.
+
+### 🚀 Başlangıç
+
+- [❓ Destek](https://discord.gg/ktVdQYrtXF)
+- [🌐 Web Sitesi](https://www.mzrdev.xyz)
+- [📚 Belgeler](https://docs.mzrdev.xyz)
+
+### 📥 Kurulum
+
+Modülü aşağıdaki komutlarla yükleyebilirsiniz:
+```bash
 npm install mzr-api
+# veya
 pnpm add mzr-api
+# veya
 yarn add mzr-api
 ```
-# Documentation & Examples
-> We cannot write here as we show everything in the most detailed way in our document. We will only add small NPM related examples in the README. For detailed information you can check [documentation](https://docs.mzrdev.xyz).
-## Example Get Version;
+
+### 📝 Kullanım Örnekleri
+Aşağıda bazı kullanım örneklerini bulabilirsiniz. Daha fazla bilgi ve detaylı açıklamalar için [belgelerimize](https://docs.mzrdev.xyz) göz atabilirsiniz.
+
+#### Örnek: Sürüm Bilgisi
 ```js
 const { version } = require('mzr-api');
-
 console.log(version);
 ```
-## Example Crypto;
+
+#### Örnek: Kripto Para Verileri
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -44,19 +54,10 @@ const mzrapi = new Api('YOUR_API_KEY');
 
     const data = await mzrapi.crypto(coins, currencies);
     console.log(data);
-})()
+})();
 ```
-## Example Fun;
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
 
-(async () => {
-    const data = await mzrapi.fun('wasted', 'image_url.png');
-    console.log(data);
-})()
-```
-## Example Minecraft Server Info;
+#### Örnek: Minecraft Sunucu Bilgisi
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
@@ -64,95 +65,24 @@ const mzrapi = new Api('YOUR_API_KEY');
 (async () => {
     const data = await mzrapi.minecraftServer('mc.hypixel.net');
     console.log(data);
-})()
+})();
 ```
-## Example Steam Game Search;
+
+#### Örnek: Proxy Kontrolü
 ```js
 const { Api } = require('mzr-api');
 const mzrapi = new Api('YOUR_API_KEY');
 
 (async () => {
-    const data = await mzrapi.steam('ETS 2'); // Euro Truck Simulator 2
+    const data = await mzrapi.proxyCheck(['username:password@ip:port', 'username2:password2@ip2:port2']);
     console.log(data);
-})()
+})();
 ```
-## Example Translate;
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
 
-(async () => {
-    const data = await mzrapi.translate('Hello! How are you', 'tr');
-    console.log(data);
-})()
-```
-## Example Discord User Info;
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
+Daha fazla örnek ve detaylı bilgi için [belgelerimize](https://docs.mzrdev.xyz) bakabilirsiniz.
 
-(async () => {
-    const data = await mzrapi.users('701518625760346172');
-    console.log(data);
-})()
-```
-## Example Wikipedia Search;
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
+### 📢 Katkıda Bulunma
+Herhangi bir katkıda bulunmak isterseniz, lütfen [Katkı Kılavuzumuza](https://www.mzrdev.xyz/contributing) göz atın.
 
-(async () => {
-    const data = await mzrapi.wikipedia('Yusuf Dikeç');
-    console.log(data);
-})()
-```
-## Example Gold Price (Only Turkiye);
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
-
-(async () => {
-    const data = await mzrapi.altin();
-    console.log(data);
-})()
-```
-## Example Earthquakes (Only Turkiye);
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
-
-(async () => {
-    const data = await mzrapi.depremler(2);
-    console.log(data);
-})()
-```
-## Example Currency (Only Turkiye);
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
-
-(async () => {
-    const data = await mzrapi.doviz();
-    console.log(data);
-})()
-```
-## Example News (Only Turkiye);
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
-
-(async () => {
-    const data = await mzrapi.haberler('dunya', 2);
-    console.log(data);
-})()
-```
-## Example Prayer Times (Only Turkiye);
-```js
-const { Api } = require('mzr-api');
-const mzrapi = new Api('YOUR_API_KEY');
-
-(async () => {
-    const data = await mzrapi.namazVakitleri('İstanbul', 'Esenyurt');
-    console.log(data);
-})()
-```
+### 📜 Lisans
+Bu proje [MIT Lisansı](https://opensource.org/licenses/MIT) ile lisanslanmıştır.
