@@ -6,7 +6,7 @@
     "url": "https://github.com/MZRCode/mzr-api/issues"
   },
   "deprecated": false,
-  "description": "Simplify a lot of your code using MZR-API",
+  "description": "A versatile and user-friendly API for accessing web services, proxy check, currency rates, crypto info, news, translation, and more.",
   "homepage": "https://github.com/MZRCode/mzr-api#readme",
   "keywords": [
     "API",
@@ -19,9 +19,6 @@
     "mzr-api",
     "axios",
     "free",
-    "lodash",
-    "react",
-    "next",
     "photographic",
     "fun",
     "döviz",
@@ -50,7 +47,14 @@
     "trt",
     "trt haber",
     "sondakika",
-    "son dakika haberler"
+    "son dakika haberler",
+    "proxy",
+    "proxy check",
+    "rate limit check",
+    "proxy rate limit check",
+    "proxy limit check",
+    "proxy checker",
+    "rate limit checker"
   ],
   "license": "MIT",
   "main": "./file/export.js",
@@ -60,7 +64,7 @@
     "type": "git",
     "url": "git+https://github.com/MZRCode/mzr-api.git"
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "dependencies": {
     "axios": "^1.7.3",
     "tslib": "^2.6.3"
