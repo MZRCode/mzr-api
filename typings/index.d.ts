@@ -1,5 +1,28 @@
 export const version: string;
 
+interface ProxyCheck {
+    working: boolean;
+    ip: string;
+    port: number;
+    username: string | null;
+    password: string | null;
+    protocols: string[];
+    latency: number;
+    country: string;
+    countryEmoji: string | null;
+}
+
+interface RateLimitCheck {
+    stats: {
+        rateLimitedProxies: number;
+        notWorkingProxies: number;
+        workingProxies: number;
+    };
+    rateLimitedProxies: string[];
+    notWorkingProxies: string[];
+    workingProxies: string[];
+}
+
 export class Api {
     /**
      * MZR Api Setup
@@ -128,4 +151,23 @@ export class Api {
      * @async
      */
     wikipedia(search: string): Promise<Object>;
+
+    /**
+     * Check proxy status.
+     * @example await mzrapi.proxyCheck(['username:password@ip:port', 'username2:password2@ip2:port2']);
+     * @param {string[]} proxies - Array of proxy addresses.
+     * @return {Promise<ProxyCheck[]>} Proxy check results
+     * @async
+     */
+    proxyCheck(proxies: string[]): Promise<ProxyCheck[]>;
+
+    /**
+     * Check rate limit status for proxies.
+     * @example await mzrapi.rateLimitCheck(['username:password@ip:port', 'username2:password2@ip2:port2'], 'https://example.com');
+     * @param {string[]} proxies - Array of proxy addresses.
+     * @param {string} url - URL to check rate limits against.
+     * @return {Promise<RateLimitCheck>} Rate limit check results
+     * @async
+     */
+    rateLimitCheck(proxies: string[], url: string): Promise<RateLimitCheck>;
 }
